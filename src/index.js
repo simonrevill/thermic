@@ -28,8 +28,8 @@ import { fahrenheitToCelsius } from './fahrenheitToCelsius.js';
 // Result: Error: 'Nothing to convert. Please enter a numeric value such as 6 or 23.4' (PASSED)
 
 // 2.
-// const result = fahrenheitToCelsius(100);
-// console.log(result, typeof result);
+const result = fahrenheitToCelsius(100);
+console.log(result, typeof result);
 // Expected: 37.8 number
 // Result: 37.8 number (PASSED)
 
