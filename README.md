@@ -51,7 +51,7 @@ You can optionally pass an object as a second argument to the function for more 
 
 <br>
 
-- `showScale: [Type: Boolean]` -  Optional. Include the temperature scale in the return value (°C or °F). If this option is set to `true`, the return value will be a `string`. 
+- `showScale: [Type: Boolean]` -  Optional. Include the temperature scale in the return value (°C or °F). If this option is set to `true`, the return value will be a `String`. 
 
 <br>
 
@@ -61,7 +61,8 @@ You can optionally pass an object as a second argument to the function for more 
 
 If you do not provide an options object, the default setting is 1 decimal place and no temperature scale will be provided.
 <br>
-The default return value is always of type `number`.
+<br>
+The default return value is always of type `Number`.
 
 <br>
 <br>
