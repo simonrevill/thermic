@@ -4,7 +4,7 @@
 
 # thermic
 
-A tiny, easy-to-use JavaScript library to convert temperatures between Celcius and Fahrenheit scales.
+A tiny, easy-to-use JavaScript library to convert temperatures between Celsius and Fahrenheit scales.
 
 <br>
 
