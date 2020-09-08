@@ -80,7 +80,7 @@ The default return value is always of type `Number`.
 import { fahrenheitToCelsius } from 'thermic';
 
 
-fahrenheitToCelsius(100, { limit: 4 }); // => 37.7778
+fahrenheitToCelsius(100, { limit: 4 }); // 37.7778
 ```
 
 <br>
@@ -91,7 +91,7 @@ fahrenheitToCelsius(100, { limit: 4 }); // => 37.7778
 <br>
 
 ```js
-fahrenheitToCelsius(100, { showScale: true }); // => '37.8°C'
+fahrenheitToCelsius(100, { showScale: true }); // '37.8°C'
 ```
 
 <br>
@@ -102,5 +102,5 @@ fahrenheitToCelsius(100, { showScale: true }); // => '37.8°C'
 <br>
 
 ```js
-fahrenheitToCelsius(100, { limit: 2, showScale: true }); // => '37.78°C'
+fahrenheitToCelsius(100, { limit: 2, showScale: true }); // '37.78°C'
 ```
