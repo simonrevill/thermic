@@ -1,0 +1,17 @@
+{
+  "name": "thermic",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A tiny JavaScript library to convert temperatures between Celcius and Fahrenheit scales.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "author": "Simon Revill",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
