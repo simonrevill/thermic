@@ -17,7 +17,6 @@ npm install thermic
 ```
 
 <br>
-<br>
 
 ## How to use  
 
@@ -36,7 +35,6 @@ fahrenheitToCelsius(100); // 37.8
 celsiusToFahrenheit(20); // 69.8
 ```
 
-<br>
 <br>
 
 ### Options
@@ -59,17 +57,13 @@ You can optionally pass an object as a second argument to the function for more 
 
 <br>
 
-If you do not provide an options object, the default setting is 1 decimal place and no temperature scale will be provided.
-<br>
-<br>
-The default return value is always of type `Number`.
+If you do not provide an options object, the default setting is **1 decimal place and no temperature scale will be provided**.
+In this case, the default return value is always of type `Number`.
 
-<br>
 <br>
 
 ## Examples
 
-<br>
 <br>
 
 - Using `limit`:
@@ -84,7 +78,6 @@ fahrenheitToCelsius(100, { limit: 4 }); // 37.7778
 ```
 
 <br>
-<br>
 
 - Using `showScale`:
 
@@ -94,7 +87,6 @@ fahrenheitToCelsius(100, { limit: 4 }); // 37.7778
 fahrenheitToCelsius(100, { showScale: true }); // '37.8°C'
 ```
 
-<br>
 <br>
 
 - Using both `limit` and `showScale` together:
