@@ -22,38 +22,26 @@ import { fahrenheitToCelsius } from './fahrenheitToCelsius.js';
 // Tests:
 
 // 1.
-// const result = fahrenheitToCelsius();
-// console.log(result, typeof result);
-// Expected: Error: 'Nothing to convert. Please enter a numeric value such as 6 or 23.4'
-// Result: Error: 'Nothing to convert. Please enter a numeric value such as 6 or 23.4' (PASSED)
+// const result1 = fahrenheitToCelsius();
+// console.log(result1, typeof result1);
 
 // 2.
-const result = fahrenheitToCelsius(100);
-console.log(result, typeof result);
-// Expected: 37.8 number
-// Result: 37.8 number (PASSED)
+// const result2 = fahrenheitToCelsius('abc');
+// console.log(result2, typeof result2);
 
 // 3.
-// const result = fahrenheitToCelsius(100, { limit: 0 });
-// console.log(result, typeof result);
-// Expected: 38 number
-// Result: 38 number (PASSED)
+const result3 = fahrenheitToCelsius(100);
+console.log(result3, typeof result3);
 
 // 4.
-// const result = fahrenheitToCelsius(100, { limit: 2 });
-// console.log(result, typeof result);
-// Expected: 37.78 number
-// Result: 37.78 number (PASSED)
+const result4 = fahrenheitToCelsius(100, { limit: 0 });
+console.log(result4, typeof result4);
 
 // 5.
-// const result = fahrenheitToCelsius(100, { limit: -1, showScale: true });
-// console.log(result, typeof result);
-// Expected: 38°C string
-// Result: 38°C string (PASSED)
+const result5 = fahrenheitToCelsius(100, { limit: 2, showScale: true });
+console.log(result5, typeof result5);
 
 // 6.
-// const result = fahrenheitToCelsius(100, { limit: 4, showScale: true });
-// console.log(result, typeof result);
-// Expected: 37.7778°C string
-// Result: 37.7778°C string (PASSED)
+const result6 = fahrenheitToCelsius(100, { showScale: true });
+console.log(result6, typeof result6);
 
