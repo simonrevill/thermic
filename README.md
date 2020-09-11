@@ -2,9 +2,25 @@
 
 <br>
 
-# thermic
+# thermic.js
 
 A tiny, easy-to-use JavaScript library to convert temperatures between Celsius and Fahrenheit scales.
+
+<br>
+
+Fahrenheit to Celsius formula:
+
+<br>
+
+(°F − 32) × 5/9 = °C
+
+<br>
+
+Celsius to Fahrenheit formula:
+
+<br>
+
+(°C × 9/5) + 32 = °F
 
 <br>
 
