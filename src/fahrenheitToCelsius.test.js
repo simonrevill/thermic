@@ -3,14 +3,14 @@ import { fahrenheitToCelsius } from './fahrenheitToCelsius.js';
 // Fahrenheit Tests for Fahrenheit to Celsius conversion:
 
 // 1. Passing no input should throw an error:
-test('Not passing an argument to the input parameter:', () => {
+test('Not passing an argument to the input parameter (throws an Error):', () => {
   expect(() => {
     fahrenheitToCelsius();
   }).toThrowError('Nothing to convert. Please enter a numeric value such as 6 or 23.4');
 });
 
 // 2. Passing an incorrect input type, for example 'String' should throw an error:
-test('Not passing an argument of type Number to the input parameter:', () => {
+test('Not passing an argument of type Number to the input parameter (throws an Error):', () => {
   expect(() => {
     fahrenheitToCelsius('abc');
   }).toThrowError('Invalid input! Please enter a number in Fahrenheit to convert to Celsius.');
