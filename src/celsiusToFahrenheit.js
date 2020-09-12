@@ -4,7 +4,7 @@ import { validateInput, validateOptions } from './utils/validation.js';
 export function celsiusToFahrenheit(input, options) {
 
   // Input validation:
-  validateInput(input);
+  validateInput(input, 'C');
 
   // Default decimal place limit:
   const defaultLimit = 1;

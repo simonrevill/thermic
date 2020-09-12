@@ -4,14 +4,13 @@ import { validateInput, validateOptions } from './utils/validation.js';
 export function fahrenheitToCelsius(input, options) {
 
   // Input validation:
-  validateInput(input);
+  validateInput(input, 'F');
 
   // Default decimal place limit:
   const defaultLimit = 1;
 
   // Check for existence of options object:
   if (options === undefined) {
-    console.log('Use case 3: ');
     return round(convertFahrenheit(input), defaultLimit);
   }
 
@@ -26,13 +25,10 @@ export function fahrenheitToCelsius(input, options) {
 
   // Return values:
   if (limit >= 0 && (showScale === undefined || !showScale)) {
-    console.log('Use case 4: ');
     return round(convertFahrenheit(input), limit);
   } else if (limit >= 0 && showScale) {
-    console.log('Use case 5: ');
     return round(convertFahrenheit(input), limit) + '°C';
   } else if ((limit === undefined || !limit) && showScale) {
-    console.log('Use case 6: ');
     return round(convertFahrenheit(input), defaultLimit) + '°C';
   }
 };

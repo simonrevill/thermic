@@ -11,14 +11,15 @@ function throwError(message) {
   throw new Error(message);
 };
 
-export const validateInput = input => {
+export const validateInput = (input, scale) => {
   if (input === undefined) {
-    console.log('use case 1: ');
     throwError(errorMessages.noInput);
   } else if (typeof input !== undefined && typeof input !== 'number') {
-    // What about Celsius? Fix this.
-    console.log('use case 2: ');
-    throwError(errorMessages.numberFahrenheit);
+    if (scale === 'F') {
+      throwError(errorMessages.numberFahrenheit);
+    } else if (scale === 'C') {
+      throwError(errorMessages.numberCelsius);
+    }
   } else {
     return true;
   }
