@@ -1,6 +1,6 @@
 import { fahrenheitToCelsius } from './fahrenheitToCelsius.js';
 
-// Fahrenheit Tests for Fahrenheit to Celsius conversion:
+// Fahrenheit Unit Tests for Fahrenheit to Celsius conversion:
 
 // 1. Passing no input should throw an error:
 test('Not passing an argument to the input parameter (throws an Error):', () => {

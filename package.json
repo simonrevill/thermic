@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "A tiny JavaScript library to convert temperatures between Celcius and Fahrenheit scales.",
-  "main": "./src/index.js",
+  "main": "./src/thermic.js",
   "scripts": {
     "start": "webpack",
     "test": "jest"
